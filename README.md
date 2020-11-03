@@ -6,10 +6,10 @@ The game is played on a grid of squares for two players: Black and White. Black 
 - Four-Four: A player may not make a move if that move simultaneously creates two or more groups of four in a row.
 - Three-Three A player may not make a move if that move simultaneously creates two or more groups of three in a row such that both ends of the three have empty squares.
 # Modes
-The user should be able to input up to three arguments to adjust the board size and numeric win condition.
-java Gomoku should start a game with a 19x19 grid,
-java Gomoku 15 12 should start a game with 15 rows and 12 columns,
-java Gomoku 7 should start a game with a 19x19 grid and to win you need 7 in a row, and
-java Gomoku 6 15 12 should start a game with 15 rows and 12 columns and to win you need 6 in a row. 
+The user is able to input up to three arguments to adjust the board size and numeric win condition.
+- java Gomoku starts a game with a 19x19 grid,
+- java Gomoku 15 12 starts a game with 15 rows and 12 columns,
+- java Gomoku 7 starts a game with a 19x19 grid and to win you need 7 in a row, and
+- java Gomoku 6 15 12 starts a game with 15 rows and 12 columns and to win you need 6 in a row. 
 # Testing
 This game has been rigorously unit tested using JUnit framework.  Details regarding specific tests are detailed in the Gomoku Testing Document PDF file.
