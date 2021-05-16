@@ -1,5 +1,5 @@
 # Gomoku-Game
-2-player board game in Java that involves both players attempting to be the first to place five of their own pieces in a row on the board.  Utilizes JavaFX to display visuals and construct two-dimensional board.
+2-player board game in Java that involves both players attempting to be the first to place five of their own pieces in a row on a checkerboard.  Utilizes JavaFX to display visuals and construct two-dimensional board.
 ## Rules
 The game is played on a grid of squares for two players: Black and White. Black moves first. Each player alternates playing pieces on the board. Once played, a piece cannot be moved. A player wins if they get five of their pieces in a row, horizontally, vertically, or diagonally.  Additionally, the players will also follow these three clauses:
 - Overline: There must be exactly five in a row to win. Six or more in a row does not win, and the game continues.
